@@ -1,4 +1,7 @@
 const D_LOTTERY_URLS = new Map();
+//
+
+D_LOTTERY_URLS.set("docomo 毎日くじ", "https://dmarket.docomo.ne.jp/portal/clicklog?lid=ex03_me_pc_102_001_%2Fkuji%2F_99&url=https%3A%2F%2Fservice.smt.docomo.ne.jp%2Fportal%2Fspecial%2Fcollab%2Ftopics%2Fsrc%2Fdmenukuji_01.html%3Futm_source%3Ddmktportal%26utm_medium%3Downed%26utm_campaign%3Ddmktportal_daily_lottery_start&opt=kuji_continuation_visited_5%2C2025%2F04%2F02%2004%3A15%3A17%2Cbonus-visit-01%2C02");
 D_LOTTERY_URLS.set("dポイントマーケット 毎日くじ", "https://t.co/Ic7pQM64Hm");
 D_LOTTERY_URLS.set("dファッション 毎日くじ", "https://kuji.dmarket.docomo.ne.jp/kuji/mpoJkiTW?userId=717427b3ba6a12adb97dc962f53c181470d82352bbc4d88f73a3a0f035e38437&dpoint=1&month=202504&key=3a68cef0c20a818ea8815315e2a6207894ca47d742bc28896d5fd860d704cab6&device=pc");
 D_LOTTERY_URLS.set("dジョブ 毎日くじ", "https://kuji.dmarket.docomo.ne.jp/kuji/1cpxtacB?userId=717427b3ba6a12adb97dc962f53c181470d82352bbc4d88f73a3a0f035e38437&dpoint=1&month=202504&key=3a68cef0c20a818ea8815315e2a6207894ca47d742bc28896d5fd860d704cab6&device=pc");
