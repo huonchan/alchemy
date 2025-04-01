@@ -45,14 +45,30 @@
             <ul>
                 <li>おぅ道具持ってこいボケ</li>
                 <ul>
-                    <li>楽天くじ <a href="dummy" target="_blank">ログイン確認用</a>
+                    <li>
+                        <details>
+                            <summary>ブースター起動方法</summary>
+                            <ol>
+                                この機能は、一昔前のインターネットで流行ってたブラウザクラッシュとほぼ同じ技術を使ってるので、デフォルトでは実行できません<br>
+                                具体的に言うと、このサイトのホップアップ処理の実行を許可してください（俺のことを信じられるのならな＾＾）
+                                <li>Braveの場合</li>
+                                <li>ブラウザのURL欄に「brave://settings/content/popups」と入力</li>
+                                <li>このサイトのホップアップを許可する</li>
+                                <li><a href="https://www.gwtcenter.com/brave-popup-control" target="_blank">参考資料</a></li>
+                            </ol>
+                        </details>
+                    </li>
+                    <!-- 楽天の確認用は気分でテキトーにブログくじのほうに飛ばす-->
+                    <li>
+                        <div id="rakuten_kuzi_all_open"  style="color: #0000ee; text-decoration: underline;">楽天くじ</div> 
+                        <a href="https://kuji.rakuten.co.jp/c8437c01c5/" target="_blank">ログイン確認用</a>
                         <details>
                             <summary>楽天ブースター</summary>
-                            <div id="rakuten_lottery">
-                                <ul>
-                                    <li>なんたらくじ</li>
-                                </ul>
-                            </div>
+                            <ul>
+                                <div id="rakuten_lottery">
+                                    <li>dummy</li>
+                                </div>
+                            </ul>
                         </details>
                     </li>
                     <li>dポイントくじ <a href="dummy" target="_blank">ログイン確認用</a>
@@ -72,5 +88,7 @@
         </div>
     </div>
 </body>
+
+<script src="./js/main.js"></script>
 
 </html>
