@@ -31,7 +31,7 @@ function initializedRakuten()
             `<li><a href="${value}" target="_blank"> ${key}</a></li>`;
     });
 
-    document.getElementById('rakuten_lottery').innerHTML = rakuten_kuzi_all_html;
+    document.getElementById('rakuten-lottery').innerHTML = rakuten_kuzi_all_html;
 
 }
 
@@ -63,7 +63,7 @@ function openAllRakutenLottery()
 initialized();
 //todo:他のバインド処理も合わせてinit関数にできねーか検討
 document.addEventListener('DOMContentLoaded', function () {
-    const openMultipleLinksButton = document.getElementById('all_rakuten_lottery_open');
+    const openMultipleLinksButton = document.getElementById('all-rakuten-lottery-open');
 
     openMultipleLinksButton.addEventListener('click', function (event) {
         event.preventDefault(); // デフォルトのリンク遷移を防止
