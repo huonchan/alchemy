@@ -1,0 +1,25 @@
+.fixed-image-right-bottom {
+    position: fixed; /* 画面に対する固定配置 */
+    bottom: 20px;    /* 下からの距離 (調整可能) */
+    right: 20px;     /* 右からの距離 (調整可能) */
+    width: 400px;    /* 画像の幅 (調整可能) */
+    height: 400px;   /* 画像の高さ (調整可能) */
+    background-image: url('../images/55b3f9791adcc5e28dcd121a5d501678.jpg'); /* 画像のパス */
+    background-size: contain; /* 画像を要素内に収める */
+    background-repeat: no-repeat; /* 画像の繰り返しを禁止 */
+  }
+  
+  /* または、imgタグを使う場合 */
+  .fixed-image-right-bottom-img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto; /* 高さは自動調整 */
+  }
+  
+  .fixed-image-right-bottom-img img {
+    width: 100%;
+    height: auto;
+    display: block; /* インライン要素の余白問題を解消 */
+  }
