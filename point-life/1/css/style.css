@@ -54,7 +54,7 @@ a:link {
     padding:8px 32px 8px 32px ;
 }
 
-.theme-dark {
+.theme {
     background-color: #212121;
     color: aliceblue;
 }
@@ -62,6 +62,7 @@ a:link {
 .contents {
     background-color: #1E272E;
     padding:12px;
+    margin:4px;
 }
 
 
@@ -80,5 +81,25 @@ a:link {
 }
 
 #enquete-block .items .item {
+    margin: 10px;
+}
+
+
+#rakuten-point-mall-block .items {
+    padding-left: 32px;
+    display: flex;
+}
+
+#rakuten-point-mall-block .items .item {
+    margin: 10px;
+}
+
+
+#timer-block .items {
+    padding-left: 32px;
+    display: flex;
+}
+
+#timer-block .items .item {
     margin: 10px;
 }
