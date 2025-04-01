@@ -19,17 +19,11 @@ RAKUTEN_URLS.set("楽天ラクマのラッキーくじ", "https://kuji.rakuten.c
 RAKUTEN_URLS.set("楽天シニアのラッキーくじ", "https://kuji.rakuten.co.jp/5f93b1fd01");
 RAKUTEN_URLS.set("楽天Play ラッキーくじ", "https://kuji.rakuten.co.jp/1993dd09b6");
 //urls_m.set("楽天ぐるなびラッキーくじ", "https://kuji.rakuten.co.jp/0293c43591");//死んだ
-RAKUTEN_URLS.set("楽天ブラウザ ラッキーくじ", "https://kuji.rakuten.co.jp/3373caeddb");
+//RAKUTEN_URLS.set("楽天ブラウザ ラッキーくじ", "https://kuji.rakuten.co.jp/3373caeddb"); //2025/04/01 死亡確認
 RAKUTEN_URLS.set("infoseekくじ ", "https://kuji.rakuten.co.jp/889373540e");
 
 
-
-
-
-
-
-
-function initialized_rakutenn()
+function initializedRakuten()
 {
     var rakuten_kuzi_all_html = ``
     RAKUTEN_URLS.forEach((value, key) => {
@@ -44,27 +38,37 @@ function initialized_rakutenn()
 
 function initialized()
 {
-    initialized_rakutenn();
+    initializedRakuten();
 }
 
 
-initialized();
 
-
-// 楽天くじ全部開く
-document.getElementById('rakuten_kuzi_all_open').onclick = async function () {
-    const isConfirmed = confirm("先にログイン確認用リンクでログイン状態確認とログイン処理しろ\n楽天くじ１５タブぐらい、マジで開くぞ？ｗ\nほんまにええんか？ｗ\nめんどくせー事になってもワイは知らんぞ？ｗ");
-    if (isConfirmed) {
-
-        for (const [key, value] of RAKUTEN_URLS) {
+function openAllRakutenLottery()
+{
+    const delay = 1000; // 1.0秒(0.5だとエラー吐かれる)
+    var index = 0;
+    for (const [key, value] of RAKUTEN_URLS) {
+        setTimeout(function() {
             window.open(value, '_blank');
-            await sleep(500);
-        }
+            console.log(`Opened: ${value}`); // 開いたURLをコンソールに表示 (確認用)
+          }, index * delay);
 
-    } else {
-        // キャンセルされた場合の処理（必要であれば）
-        alert("キャンセルされました。");
+          index++;
     }
-    return false;
 }
 
+
+
+//init
+initialized();
+//todo:他のバインド処理も合わせてinit関数にできねーか検討
+document.addEventListener('DOMContentLoaded', function () {
+    const openMultipleLinksButton = document.getElementById('all_rakuten_lottery_open');
+
+    openMultipleLinksButton.addEventListener('click', function (event) {
+        event.preventDefault(); // デフォルトのリンク遷移を防止
+
+        openAllRakutenLottery();
+
+    });
+});

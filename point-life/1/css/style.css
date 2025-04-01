@@ -1,25 +1,84 @@
 .fixed-image-right-bottom {
-    position: fixed; /* 画面に対する固定配置 */
-    bottom: 20px;    /* 下からの距離 (調整可能) */
-    right: 20px;     /* 右からの距離 (調整可能) */
-    width: 400px;    /* 画像の幅 (調整可能) */
-    height: 400px;   /* 画像の高さ (調整可能) */
-    background-image: url('../images/55b3f9791adcc5e28dcd121a5d501678.jpg'); /* 画像のパス */
-    background-size: contain; /* 画像を要素内に収める */
-    background-repeat: no-repeat; /* 画像の繰り返しを禁止 */
-  }
-  
-  /* または、imgタグを使う場合 */
-  .fixed-image-right-bottom-img {
+    position: fixed;
+    /* 画面に対する固定配置 */
+    bottom: 20px;
+    /* 下からの距離 (調整可能) */
+    right: 20px;
+    /* 右からの距離 (調整可能) */
+    width: 400px;
+    /* 画像の幅 (調整可能) */
+    height: 400px;
+    /* 画像の高さ (調整可能) */
+    background-image: url('../images/55b3f9791adcc5e28dcd121a5d501678.jpg');
+    /* 画像のパス */
+    background-size: contain;
+    /* 画像を要素内に収める */
+    background-repeat: no-repeat;
+    /* 画像の繰り返しを禁止 */
+}
+
+/* または、imgタグを使う場合 */
+.fixed-image-right-bottom-img {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 100px;
-    height: auto; /* 高さは自動調整 */
-  }
-  
-  .fixed-image-right-bottom-img img {
+    height: auto;
+    /* 高さは自動調整 */
+}
+
+.fixed-image-right-bottom-img img {
     width: 100%;
     height: auto;
-    display: block; /* インライン要素の余白問題を解消 */
+    display: block;
+    /* インライン要素の余白問題を解消 */
+}
+
+a:link {
+    color: cornflowerblue; /* 未訪問のリンクの色 */
   }
+  
+  a:visited {
+    color: cornflowerblue; /* 訪問済みのリンクの色 */
+  }
+  
+  a:hover {
+    color: red; /* マウスオーバー時のリンクの色 */
+  }
+  
+  a:active {
+    color: green; /* クリック中のリンクの色 */
+  }
+
+#main {
+    padding:8px 32px 8px 32px ;
+}
+
+.theme-dark {
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.contents {
+    background-color: #1E272E;
+    padding:12px;
+}
+
+
+#service-block .items {
+    padding-left: 32px;
+    display: flex;
+}
+
+#service-block .items .item {
+    margin: 10px;
+}
+
+#enquete-block .items {
+    padding-left: 32px;
+    display: flex;
+}
+
+#enquete-block .items .item {
+    margin: 10px;
+}
