@@ -1,8 +1,8 @@
 //src https://kuji.rakuten.co.jp/
 const RAKUTEN_URLS = new Map();
+RAKUTEN_URLS.set("楽天証券ラッキーかぶくじ", "https://kuji.rakuten.co.jp/6e7329f994");//開始
 RAKUTEN_URLS.set("楽天ラッキーくじ", "https://kuji.rakuten.co.jp/f3a3832d0c");
 RAKUTEN_URLS.set("楽天トラベル ラッキーくじ", "https://kuji.rakuten.co.jp/1243541a35");
-RAKUTEN_URLS.set("楽天証券ラッキーかぶくじ", "https://kuji.rakuten.co.jp/6e7329f994");
 RAKUTEN_URLS.set("楽天保険 保険の比較 くじ ", "https://kuji.rakuten.co.jp/14d330d3e0");
 RAKUTEN_URLS.set("楽天TV ラッキーくじ", "https://kuji.rakuten.co.jp/46211bf9dd");
 RAKUTEN_URLS.set("楽天不動産 ラッキーくじ", "https://kuji.rakuten.co.jp/18584163d");
@@ -21,12 +21,12 @@ RAKUTEN_URLS.set("楽天シニアのラッキーくじ", "https://kuji.rakuten.c
 //RAKUTEN_URLS.set("楽天Play ラッキーくじ", "https://kuji.rakuten.co.jp/1993dd09b6");死んだ
 //urls_m.set("楽天ぐるなびラッキーくじ", "https://kuji.rakuten.co.jp/0293c43591");//死んだ
 //RAKUTEN_URLS.set("楽天ブラウザ ラッキーくじ", "https://kuji.rakuten.co.jp/3373caeddb"); //2025/04/01 死亡確認
-RAKUTEN_URLS.set("楽天プレイくじ ", "https://kuji.rakuten.co.jp/889373540e");
-RAKUTEN_URLS.set("楽天 ラッキーくじ", "https://kuji.rakuten.co.jp/4323fb5c8f/");
+RAKUTEN_URLS.set("楽天ライブ ラッキーくじ", "https://kuji.rakuten.co.jp/4323fb5c8f/");
 RAKUTEN_URLS.set("Rチャンネル ラッキーくじ", "https://kuji.rakuten.co.jp/7e14010b80/");
-RAKUTEN_URLS.set("楽天リーベイツ ラッキーくじ", "https://kuji.rakuten.co.jp/86f41b66a3");
+RAKUTEN_URLS.set("楽天リーベイツ ラッキーくじ", "https://kuji.rakuten.co.jp/f2041e9e19");
 RAKUTEN_URLS.set("R Pay ラッキーくじ", "https://kuji.rakuten.co.jp/e5741cf5af");
-RAKUTEN_URLS.set("楽天ぐるなび ラッキーくじ", "https://kuji.rakuten.co.jp/04b3eed188");
+RAKUTEN_URLS.set("楽天ぐるなび ラッキーくじ", "https://kuji.rakuten.co.jp/6f74185959");
+RAKUTEN_URLS.set("楽天プレイくじ infoseek", "https://kuji.rakuten.co.jp/889373540e");//現状最終符号
 
 
 function initializedRakuten()
