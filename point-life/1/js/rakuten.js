@@ -21,7 +21,7 @@ RAKUTEN_URLS.set("楽天シニアのラッキーくじ", "https://kuji.rakuten.c
 //RAKUTEN_URLS.set("楽天Play ラッキーくじ", "https://kuji.rakuten.co.jp/1993dd09b6");死んだ
 //urls_m.set("楽天ぐるなびラッキーくじ", "https://kuji.rakuten.co.jp/0293c43591");//死んだ
 //RAKUTEN_URLS.set("楽天ブラウザ ラッキーくじ", "https://kuji.rakuten.co.jp/3373caeddb"); //2025/04/01 死亡確認
-RAKUTEN_URLS.set("楽天ライブ ラッキーくじ", "https://kuji.rakuten.co.jp/4323fb5c8f/");
+//RAKUTEN_URLS.set("楽天ライブ ラッキーくじ", "https://kuji.rakuten.co.jp/4323fb5c8f/");//sinda
 RAKUTEN_URLS.set("Rチャンネル ラッキーくじ", "https://kuji.rakuten.co.jp/7e14010b80/");
 RAKUTEN_URLS.set("楽天リーベイツ ラッキーくじ", "https://kuji.rakuten.co.jp/f2041e9e19");
 RAKUTEN_URLS.set("R Pay ラッキーくじ", "https://kuji.rakuten.co.jp/e5741cf5af");
